@@ -7,7 +7,7 @@ function match(){
     document.querySelector(".player1 img").setAttribute("src", "./images/dice" + randomNumber1 + ".png");
     
     var randomNumber2 = random();
-    document.querySelector(".player1 img").setAttribute("src", "./images/dice" + randomNumber2 + ".png");
+    document.querySelector(".player2 img").setAttribute("src", "./images/dice" + randomNumber2 + ".png");
     
     if (randomNumber1 > randomNumber2){
         document.querySelector(".container").textContent="Player 1 wins";
